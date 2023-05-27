@@ -1,0 +1,23 @@
+/*Declare an Int called myAge and set it to your age. also
+ Declare an Int variable called phones and call it your own phones (to phones) equal to the number. Then imagine buying new phones and increment the phones variable by one.*/
+let MyAge: Int = 18;
+print(MyAge)
+
+var MyPhones: Int = 2
+MyPhones += 1
+print(MyPhones)
+
+let x: Int = 10
+let y: Int = 8
+print (x+y)
+
+/*Declare three variables named raiting1, raiting2 and raiting3 of type Double and assign a value to each. Calculate the average value and call the result averageRating store in a named constant value.*/
+var raiting1: Double = 13;
+var raiting2: Double = 11;
+var raiting3: Double = 10;
+var averageRating = (raiting1+raiting2+raiting3)/3
+print(averageRating)
+
+
+
+

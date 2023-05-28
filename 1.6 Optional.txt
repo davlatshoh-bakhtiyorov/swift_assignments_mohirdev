@@ -1,0 +1,23 @@
+/*First, it returns the number of divisions of an integer by another integer without a remainder
+create a function. If the division does not yield an integer, the function returns zero
+need Name the function divideIfWhole.
+Next, write code that tries to open the optional result of the function. Two
+should be case: after success, "Yes, it is \(answer) times
+split" and on failure, print "Not split:[''.*/
+
+func divideIfWhole(_ dividend: Int, _ divisor: Int) -> Int? {
+    if dividend % divisor == 0 {
+        return dividend / divisor
+    } else {
+        return nil
+    }
+}
+
+let dividend = 15
+let divisor = 3
+
+if let result = divideIfWhole(dividend, divisor) {
+    print("Ha, u \(result) marta bo'linadi")
+} else {
+    print("Bo'linmaydi")
+}
